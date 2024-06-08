@@ -14,3 +14,5 @@ ExecStart=
 ExecStart=-/sbin/agetty --autologin danimir tty1
 ```
 for autologin in tty1.
+
+Add the `--system-title-bar` flag in the **/var/lib/flatpak/app/org.onlyoffice.desktopeditors/current/active/export/share/applications/org.onlyoffice.desktopeditors.desktop** in the `Exec` section.
