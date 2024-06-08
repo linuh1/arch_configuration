@@ -29,7 +29,7 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 systemctl enable bluetooth.service; systemctl start bluetooth.service
 ```
 
-- Вулючить syncthing:
+- Включить syncthing:
 ```sh
 syncthing; systemctl enable syncthing@danimir.service; systemctl start syncthing@danimir.service
 ```
@@ -39,19 +39,19 @@ syncthing; systemctl enable syncthing@danimir.service; systemctl start syncthing
 ln -s /bin/nvim /bin/vi; ln -s /bin/nvim /bin/vim
 ```
 
-- .
+- Управление bluetooth соединением можно сделать с помощью wofi.
 
-- For popup windows for switching keyboard layout, changing volume or brightness I may use dunst scripts or wofi.
+- Для выпадающих окон for смены раскладки клавиатуры, изменения громкости или яркости можно использовать dunst уведомления.
 
-- For internet menu need wofi script.
+- Управление интернетом можно сделать с помощью wofi.
 
-- Start and enable network manager by:
+- Включить networkmanager:
 ```sh
 systemctl enable NetworkManager
 systemctl start NetworkManager
 ```
 
-- To add keyboard layout ru past this in `hyprland.conf`:
+- Добавить раскладку клавиатуры в `hyprland.conf`:
 ```sh
 input {
     kb_layout = us,ru
