@@ -1,6 +1,6 @@
 - Install apps:
 ```sh
-pacman -S python-poetry bluez bluez-utils mesa xf86-video-amdgpu vulkan-radeon kitty pipewire ranger zsh wget go git wofi fakeroot waybar flatpak htop syncthing gnu-free-fonts noto-fonts otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono dunst xdg-desktop-portal-hyprland hyprlock mpv wl-clipboard neovim; flatpak install flathub org.telegram.desktop org.mozilla.firefox md.obsidian.Obsidian com.jetbrains.PyCharm-Community com.discordapp.Discord org.qbittorrent.qBittorrent org.onlyoffice.desktopeditors com.github.tchx84.Flatseal
+pacman -S python-poetry bluez bluez-utils mesa xf86-video-amdgpu vulkan-radeon kitty pipewire ranger zsh wget go git wofi fakeroot waybar flatpak htop syncthing gnu-free-fonts noto-fonts otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono dunst xdg-desktop-portal-hyprland hyprlock mpv wl-clipboard neovim imv grim wf-recorder; flatpak install flathub org.telegram.desktop org.mozilla.firefox md.obsidian.Obsidian com.jetbrains.PyCharm-Community com.discordapp.Discord org.qbittorrent.qBittorrent org.onlyoffice.desktopeditors com.github.tchx84.Flatseal
 ```
 
 - Add the `exec Hyprland` to the end of the **/etc/profile** file for autostart hyprland after login in tty.
@@ -34,6 +34,9 @@ syncthing; systemctl enable syncthing@danimir.service; systemctl start syncthing
 
 Adding links to the neovim (needed by ranger and git):
 ```sh
-ln -s /bin/nvim /bin/vi; ln -s /bin/nvim /bin/vin
+ln -s /bin/nvim /bin/vi; ln -s /bin/nvim /bin/vim
 ```
+
+i have not choose bluetooth menu yet. Here are favorites: Bluedevil, Blueman.
+
 
