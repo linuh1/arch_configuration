@@ -29,7 +29,5 @@ systemctl enable bluetooth.service; systemctl start bluetooth.service
 
 - Enable syncthing:
 ```sh
-syncthing
-systemctl enable syncthing@danimir.service
-systemctl start syncthing@danimir.service
+syncthing; systemctl enable syncthing@danimir.service; systemctl start syncthing@danimir.service
 ```
