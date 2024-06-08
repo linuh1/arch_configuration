@@ -9,7 +9,7 @@ pacman -S python-poetry bluez bluez-utils mesa xf86-video-amdgpu vulkan-radeon k
 
 - Добавить директорию `getty@tty1.service.d` в **/etc/systemd/system/**.
 
-- Добавить файл `autologin.conf` в **/etc/systemd/system/getty@tty1.service.d/** директрию, сожержащий:
+- Добавить файл `autologin.conf` в **/etc/systemd/system/%%getty@tty1.service.d%%/** директрию, сожержащий:
 ```
 [Service]
 ExecStart=
