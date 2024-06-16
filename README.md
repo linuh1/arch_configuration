@@ -58,3 +58,6 @@ input {
     kb_options = grp:caps_toggle
     }
 ```
+
+TODO:
+перевести с пакмана на nix.
