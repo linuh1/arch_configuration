@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=reboot
+Name=reboot
+Type=Application
+Icon=/home/danimir/.local/icons/reload.svg
+
