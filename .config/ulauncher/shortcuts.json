@@ -1,0 +1,12 @@
+{
+    "11f2eb50-2049-43ea-bcee-6b1e5396c574": {
+        "id": "11f2eb50-2049-43ea-bcee-6b1e5396c574",
+        "name": "Google",
+        "keyword": "g",
+        "cmd": "https://google.com/search?q=%s",
+        "icon": "~/Downloads/google-1.svg",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1718697597.0301104
+    }
+}

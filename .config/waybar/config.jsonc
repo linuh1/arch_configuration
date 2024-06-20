@@ -1,0 +1,87 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top",
+    "output": "HDMI-A-1",
+    // "output": "eDP-1",
+    "position": "top",
+    "height": 20,
+    "spacing": 8,
+    "name": "top_bar",
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+	"bluetooth",
+        "network",
+        "battery",
+        "clock"
+    ],
+    "hyprland/workspaces": {
+	"all-outputs": true,
+        "format": "{name}"
+    },
+    "clock": {    
+        "format": "{:%a %b %d  %H:%M}",
+	"tooltip-format": "{:%A\n%d.%m.%Y\n%H:%M}"
+    },
+    "battery": {
+	"states": {
+	    "critical": 15,
+	    "warning": 30,
+	    "enough": 60,
+	    "good": 80,
+	    "full": 100
+	},
+	"format-critical": "{capacity}%",
+	"format-warning": "Bad",
+	"format-enough": "Enough",
+	"format-good": "Good",
+	"format-full": "Full",
+	"tooltip-format": "{capacity}%\n{health}"
+    },
+    "network": {
+        "format-wifi": "{essid}",
+	"format-disconnected": "Disconnected",
+	"format-ethernet": "Ethernet",
+	"on-click": "kitty --start-as=fullscreen iwctl",
+	"tooltip": false
+    },
+    "bluetooth": {
+	"format-no-controller": "Disabled",
+	"format-disabled": "Disabled",
+	"format-off": "Disabled",
+	"format-on": "Enabled",
+	"format-connected": "{device_alias}",
+	"on-click": "kitty --start-as=fullscreen bluetoothctl",
+	"tooltip": false
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    "image#reload": {
+//	"path": "/home/danimir/.local/icons/reload.svg",
+//	"on-click": "killall -SIGUSR2 waybar"
+//    },
+//    "image#control-center": {
+//	"path": "/home/danimir/.config/waybar/parameters.svg",
+//	"on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi -c /home/danimir/.config/wofi/control-center; xdotool key BackSpace"
+}

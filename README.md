@@ -2,7 +2,7 @@
 
 - Установить программы:
 ```sh
-pacman -S python-poetry bluez bluez-utils mesa xf86-video-amdgpu vulkan-radeon kitty pipewire ranger zsh wget go git wofi fakeroot waybar flatpak htop syncthing gnu-free-fonts noto-fonts otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono dunst xdg-desktop-portal-hyprland hyprlock mpv wl-clipboard neovim imv grim wf-recorder hyprpaper gammastep networkmanager; flatpak install flathub org.telegram.desktop org.mozilla.firefox md.obsidian.Obsidian com.jetbrains.PyCharm-Community com.discordapp.Discord org.qbittorrent.qBittorrent org.onlyoffice.desktopeditors com.github.tchx84.Flatseal
+pacman -S python-pillow python-poetry bluez bluez-utils mesa xf86-video-amdgpu vulkan-radeon kitty pipewire ranger zsh wget go git wofi fakeroot waybar flatpak htop syncthing gnu-free-fonts noto-fonts otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono dunst xdg-desktop-portal-hyprland hyprlock mpv wl-clipboard neovim imv grim wf-recorder hyprpaper gammastep networkmanager; flatpak install flathub org.telegram.desktop org.mozilla.firefox md.obsidian.Obsidian com.jetbrains.PyCharm-Community com.discordapp.Discord org.qbittorrent.qBittorrent org.onlyoffice.desktopeditors com.github.tchx84.Flatseal
 ```
 
 - Добавить `exec Hyprland` в конец `/etc/profile` файла для автозапуска композитора после логина в tty (плохо работает. иногда черный экран с указателем. неыохможно взаимодействовать. при нажатии клавиш заверщения работы композитора он выключается, затем снова включается и раюотает без проблем).
