@@ -61,3 +61,5 @@ input {
 
 TODO:
 перевести с пакмана на nix.
+Системы на Ventoy: 
+Alpine, Archcraft, Arch, Debian, ElementaryOS, EndevourOS, Fedora, LinuxMint, Manjaro, MXLinux, NixOS, OpenSUSE, UmbrelOS, Windows10, ZorinOS.
